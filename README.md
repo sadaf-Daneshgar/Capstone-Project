@@ -156,7 +156,7 @@ If you like this project just give it a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="Cindy Shin Behance"></a>
 
 I would like to thank Microverse.
 
