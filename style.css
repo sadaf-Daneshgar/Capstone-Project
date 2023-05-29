@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +15,13 @@ body {
 }
 
 .top-nav {
-  width: 100%;
   background-color: #3e3e3e;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.humbargar-menu img {
+.humbargar-menu {
   display: none;
 }
 
@@ -40,9 +41,7 @@ body {
 
 .navbar {
   display: flex;
-  width: 100%;
-  height: 75px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   transform: translateX(0);
 }
@@ -71,15 +70,15 @@ body {
 /* start of first container */
 .container1 {
   background-image: url("image/Frame\ 5.png");
-  height: 87vh;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 86vh;
 }
 
 .hero {
   display: flex;
-  padding: 30px 130px;
+  padding: 40px 130px;
   flex-direction: column;
   gap: 33px;
 }
@@ -126,10 +125,6 @@ body {
 .end-part h3 {
   color: #595959;
   font-size: 42px;
-
-  /* font-family: "Gothic A1"; */
-
-  /* padding-bottom: 10px; */
 }
 
 .end-part .content {
@@ -163,8 +158,6 @@ body {
   font-size: 30px;
   line-height: 28px;
   font-weight: 400;
-
-  /* font-family: "Lato"; */
 }
 
 hr {
@@ -276,8 +269,6 @@ hr {
   align-items: center;
   color: black;
   font-size: 14px;
-
-  /* font-family: "Lato"; */
   line-height: 28px;
 }
 
@@ -415,39 +406,46 @@ hr {
     display: none;
   }
 
+  .logo img {
+    display: none;
+  }
+
   .menu-bottom {
     display: none;
   }
 
-  .humbargar-menu img {
-    display: flex;
-    width: 31px;
-    height: 27px;
+  .nav-menu-cc {
+    display: none;
   }
 
-  .navbar {
-    flex-direction: row-reverse;
-    justify-content: space-around;
+  .humbargar-menu {
+    display: block;
+    font-size: 30px;
+    padding: 12px;
+    color: black;
   }
 
-  .logo img {
-    margin-left: 123px;
+  .container1 {
+    background-image: url("image/hero-bg-mobile.png");
+    width: 100%;
+    background-size: contain;
   }
 
   .hero {
-    padding: 11px;
+    padding-inline: 4%;
+    padding-block: 4%;
   }
 
   .main-title {
-    font-size: 33px;
+    font-size: 25px;
+  }
+
+  .sub-title {
+    font-size: 20px;
   }
 
   .passage {
     width: 100%;
-  }
-
-  .end-part {
-    padding: 30px 18px;
   }
 
   .end-part h3 {
@@ -469,7 +467,6 @@ hr {
     display: grid;
     grid-template-columns: 10% 30% 60%;
     padding: 6px;
-    width: 355px;
     text-align: center;
   }
 
@@ -483,7 +480,6 @@ hr {
     color: #fff;
     background-color: orangered;
     padding: 5%;
-    width: 300px;
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -492,17 +488,16 @@ hr {
 
   /* hubmargar-menu */
   .show-menu-modal {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    background-image: url("image/Frame\ 5.png");
+    background-image: url("image/hero-bg-mobile.png");
     width: 100vw;
     height: 100vh;
     padding: 10%;
     display: flex;
     flex-direction: column;
     margin: 0;
-    overflow: hidden;
     gap: 40px;
   }
 
