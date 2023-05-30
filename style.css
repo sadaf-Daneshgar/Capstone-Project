@@ -473,9 +473,9 @@ hr {
 
   .list-item {
     display: grid;
-    grid-template-columns: 23% 22% 50%;
+    grid-template-columns: 22% 26% 50%;
     padding: 6px;
-    text-align: center;
+    text-align: start;
   }
 
   .see-more {
