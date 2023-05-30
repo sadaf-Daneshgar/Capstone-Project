@@ -251,15 +251,9 @@ hr {
 .footer-content {
   display: flex;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
   gap: 65px;
   padding: 74px 221px;
-}
-
-.footer-content img {
-  width: 150px;
-  height: 42px;
 }
 
 .final {
@@ -267,10 +261,18 @@ hr {
   flex-direction: column;
   justify-content: center;
   gap: 25px;
-  align-items: center;
   color: #272a31;
   font-size: 14px;
   line-height: 28px;
+}
+
+.about-footer .final {
+  color: #d3d3d3;
+}
+
+.footer-content img {
+  width: 150px;
+  height: 42px;
 }
 
 /* about page */
@@ -309,6 +311,10 @@ hr {
   padding-top: 35px;
 }
 
+.about-footer {
+  background: #2e2e2e;
+}
+
 .about-see {
   display: flex;
   flex-direction: column;
@@ -337,15 +343,16 @@ hr {
 
 /* feature part js */
 
-.featured-speakers {
+/* .featured-speakers {
   padding: 14px;
-}
+} */
 
 .featured-speakers .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  padding: 0 205px 74px 205px;
 }
 
 .speakers {
@@ -353,12 +360,13 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 45px;
-  padding: 5%;
+
+  /* padding: 5%; */
 }
 
 .speaker {
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 .bgFrame {
@@ -380,6 +388,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 305px;
+  gap: 12px;
 }
 
 .Contributor-affiliation h4 {
@@ -463,7 +473,7 @@ hr {
 
   .list-item {
     display: grid;
-    grid-template-columns: 10% 30% 60%;
+    grid-template-columns: 23% 22% 50%;
     padding: 6px;
     text-align: center;
   }
@@ -482,6 +492,14 @@ hr {
     border: none;
     cursor: pointer;
     margin: 20px 22px;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .partner {
+    display: none;
   }
 
   /* hubmargar-menu */
@@ -562,20 +580,29 @@ hr {
     display: block;
   }
 
+  .Contributor-detail {
+    width: 229px;
+    gap: 6px;
+  }
+
   .speaker {
     padding: 5%;
   }
 
   .bgFrame {
-    width: 95%;
+    width: 50%;
   }
 
   .Contributor {
-    height: 93%;
+    width: 22vh;
   }
 
   .contributor-description {
     font-size: 12px;
+  }
+
+  .featured-speakers .container {
+    padding: 0;
   }
 
   .speaker-3 {

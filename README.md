@@ -156,9 +156,9 @@ If you like this project just give it a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="Cindy Shin Behance"></a>
+## 🙏 Acknowledgments <a name="acknowledgement"></a>
 
-I would like to thank Microverse.
+- Thank you  <a href="#"> Cindy Shin</a> for designing the teplate!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
