@@ -9,7 +9,7 @@ const speakersData = [
     speakerName: 'Yochai Benkler',
     speakerAffiliation: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     speakerInfo: 'Juliana is a Lecturer (Assistant Professor) in Software Engineering at the School of Computing Science, University of Glasgow, United Kingdom.',
-    speakerImage: 'image/speaker2.png',
+    speakerImage: 'image/speaker6.png',
   },
   {
     speakerName: 'Lila tretikov',
@@ -22,6 +22,18 @@ const speakersData = [
     speakerAffiliation: 'Saarland University',
     speakerInfo: 'Sven Apel is an associate professor in the School of Electrical Engineering and Computer Science at Washington State University, Pullman.',
     speakerImage: 'image/speaker4.png',
+  },
+  {
+    speakerName: 'SohYeong Noh',
+    speakerAffiliation: 'Director of Art Centre Nabi and a board member of CC Korea',
+    speakerInfo: 'Emad Aghajani is a postdoctoral researcher at the SEART research group, at Software Institute, USI, Switzerland.',
+    speakerImage: 'image/speaker5.png',
+  },
+  {
+    speakerName: 'SohYeong Noh',
+    speakerAffiliation: 'Director of Art Centre Nabi and a board member of CC Korea',
+    speakerInfo: 'Emad Aghajani is a postdoctoral researcher at the SEART research group, at Software Institute, USI, Switzerland.',
+    speakerImage: 'image/speaker6.png',
   },
 ];
 
@@ -66,11 +78,15 @@ function renderFeaturedSpeakers() {
   const seeLessBtn = document.querySelector('.less');
   const speaker3 = document.querySelector('.speaker-3');
   const speaker4 = document.querySelector('.speaker-4');
+  const speaker5 = document.querySelector('.speaker-5');
+  const speaker6 = document.querySelector('.speaker-6');
 
   function seeMore() {
     seeMoreBtn.setAttribute('class', 'speaker-3');
     speaker3.classList.remove('speaker-3');
     speaker4.classList.remove('speaker-4');
+    speaker5.classList.remove('speaker-5');
+    speaker6.classList.remove('speaker-6');
     seeLessBtn.setAttribute('class', 'seeMoreBtn');
   }
 
@@ -78,6 +94,8 @@ function renderFeaturedSpeakers() {
     seeLessBtn.setAttribute('class', 'speaker-3 less');
     speaker3.classList.add('speaker-3');
     speaker4.classList.add('speaker-4');
+    speaker5.classList.add('speaker-5');
+    speaker6.classList.add('speaker-6');
     seeMoreBtn.setAttribute('class', 'seeMoreBtn');
   }
 

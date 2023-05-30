@@ -613,6 +613,14 @@ hr {
     display: none;
   }
 
+  .speaker-5 {
+    display: none;
+  }
+
+  .speaker-6 {
+    display: none;
+  }
+
   .seeMoreBtn {
     display: block;
     background: #fff;
