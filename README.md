@@ -158,7 +158,8 @@ If you like this project just give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgement"></a>
 
-- Thank you  <a href="#"> Cindy Shin</a> for designing the teplate!
+-The Original design idea is by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) Thanks to **Cindy Shin** for Creating such a beautiful design.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
