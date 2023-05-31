@@ -341,12 +341,7 @@ hr {
   gap: 25px;
 }
 
-/* feature part js */
-
-/* .featured-speakers {
-  padding: 14px;
-} */
-
+/* feature part js  for desktop version */
 .featured-speakers .container {
   display: flex;
   flex-direction: column;
@@ -360,8 +355,6 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 45px;
-
-  /* padding: 5%; */
 }
 
 .speaker {
@@ -494,9 +487,9 @@ hr {
     margin: 20px 22px;
   }
 
-  /* .footer {
+  .footer {
     display: none;
-  } */
+  }
 
   .partner {
     display: none;

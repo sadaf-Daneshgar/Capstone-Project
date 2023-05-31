@@ -1,4 +1,5 @@
 const speakersData = [
+  // create array for speakers part to add the detials instead of adding in html
   {
     speakerName: 'SohYeong Noh',
     speakerAffiliation: 'Director of Art Centre Nabi and a board member of CC Korea',
@@ -37,6 +38,7 @@ const speakersData = [
   },
 ];
 
+// create function for speakers part
 function renderFeaturedSpeakers() {
   const featureSection = document.querySelector('.featured-speakers');
   const projectOverlay = document.createElement('div');
@@ -99,6 +101,7 @@ function renderFeaturedSpeakers() {
     seeMoreBtn.setAttribute('class', 'seeMoreBtn');
   }
 
+  // add the eventlistener for add action on seemore or seeless button
   seeMoreBtn.addEventListener('click', seeMore);
   seeLessBtn.addEventListener('click', seeLess);
 }

@@ -129,8 +129,10 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Add Header.
-- [ ] Add Style.
+- [Add Animation]
+- [Add ticket page]
+- [Deploy to a universal server]
+- [Add new pages] 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
