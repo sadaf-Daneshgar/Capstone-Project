@@ -129,8 +129,10 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Add Header.
-- [ ] Add Style.
+- [Add Animation]
+- [Add ticket page]
+- [Deploy to a universal server]
+- [Add new pages] 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -156,9 +158,10 @@ If you like this project just give it a star.
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgement"></a>
 
-I would like to thank Microverse.
+-The Original design idea is by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) Thanks to **Cindy Shin** for Creating such a beautiful design.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

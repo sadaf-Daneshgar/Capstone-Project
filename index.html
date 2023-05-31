@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capstone project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/38b6d4ab77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- for best practic i add the header -->
+    <header>
+        <!-- top navbar -->
+        <nav class="top-nav">
+            <ul class="menu-tap">
+                <li><a class="nav-item" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="nav-item" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="nav-item" href="#">English</a></li>
+                <li><a class="nav-item" href="#">My Page</a></li>
+                <li><a class="nav-item" href="#">Logout</a></li>
+            </ul>
+        </nav>
+        <!-- main navbar -->
+        <nav class="navbar">
+            <a class="logo" href="index.html">
+                <img src="image/logo.png">
+            </a>
+            <ul class="menu-bottom menu-tap">
+                <li><a href="#" class="nav-menu nav-item" id="close-menu">X</a></li>
+                <li><a class="nav-menu nav-item" href="about.html">About</a></li>
+                <li><a class="nav-menu nav-item" href="#program-section">Program</a></li>
+                <li><a class="nav-menu nav-item" href="#join-btn">Join</a></li>
+                <li><a class="nav-menu nav-item" href="#partner">Sponsor</a></li>
+                <li><a class="nav-menu nav-item" href="#">News</a></li>
+                <li><a class="nav-menu-cc nav-item" href="#">CC Campaign</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- for best smantic i used main tag -->
+    <main>
+        <!-- start of hero section -->
+        <section class="container1">
+            <div class="hero">
+                <a href="#" class="humbargar-menu"><i class="fa-solid fa-bars"></i></a>
+                <div class="first-part">
+                    <h2 class="sub-title">"Hello! Sharing world"</h2>
+                    <h1 class="main-title">CREATIVE COMMONS<br /> GLOBAL SUMMIT<br /> 2015</h1>
+                </div>
+                <div class="passage">
+                    <p>A joyful celebration believing in the value of openness and sharing, creating a positive change
+                        with
+                        people from over 80 countries is taking place in October, in Korea.
+                    </p>
+                </div>
+                <div class="end-part">
+                    <h3>2015.10.15(THU) ~ 16(FRI)</h3>
+                    <p class="content">@ National Museum of Karea, Art Center Nabi and more
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- start of main program -->
+        <section class="program" id="program-section">
+            <div class="a">
+                <div class="main-program">
+                    <h3>Main Program</h3>
+                    <hr>
+                </div>
+                <div class="program-list">
+                    <div class="list-item">
+                        <img src="image/first.png">
+                        <h4>
+                            Lecture
+                        </h4>
+                        <p>
+                            Listen to the speakers from various
+                            countries about the messages of sharing and opening.
+                        </p>
+                    </div>
+                    <div class="list-item">
+                        <img src="image/second.png">
+                        <h4>
+                            Exhibition
+                        </h4>
+                        <p>
+                            Listen to the speakers from various
+                            countries about the messages of sharing and opening.
+                        </p>
+                    </div>
+                    <div class="list-item">
+                        <img src="image/third.png">
+                        <h4>
+                            Forum
+                        </h4>
+                        <p>
+                            Listen to the speakers from various
+                            countries about the messages of sharing and opening.
+                        </p>
+                    </div>
+                    <div class="list-item">
+                        <img src="image/four.png">
+                        <h4>
+                            Workshop
+                        </h4>
+                        <p>
+                            Listen to the speakers from various
+                            countries about the messages of sharing and opening.
+                        </p>
+                    </div>
+                    <div class="list-item">
+                        <img src="image/five.png">
+                        <h4>
+                            lgnite
+                        </h4>
+                        <p>
+                            Listen to the speakers from various
+                            countries about the messages of sharing and opening.
+                        </p>
+                    </div>
+                    <button class="btn" id="join-btn">Join ICPC 2023</button>
+                </div>
+                <div class="see-more">
+                    <h3>SEE THE WHOLE PROGRAM</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- feature speakers -->
+        <!-- the proprties add to js file dynamicly -->
+        <section class="featured-speakers">
+
+        </section>
+
+        <!-- partners secion -->
+        <section class="partner home-partner-section" id="partner">
+            <div class="partner-part">
+                <div class="main-program">
+                    <h3>Partners</h3>
+                    <hr>
+                </div>
+
+                <ul class="partner-list">
+                    <li>
+                        <a href="https://www.microsoft.com"><img class="partner-logo" src="image/micros.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com"><img class="partner-logo" src="image/googlekorea 1.png"
+                                alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.airbnb.com"><img class="partner-logo" src="image/airbnb 1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org"><img class="partner-logo" src="image/mozilla 1.png"
+                                alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="image/cck-logo1 1.png">
+            <div class="final">
+                <h4>
+                    2015 Creative Commons Korea. Some Rights Reserved.
+                </h4>
+                <p>
+                    달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+                    자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- adding the js files links -->
+    <script src="menubar.js"></script>
+    <script src="speaker.js"></script>
+</body>
+
+</html>
