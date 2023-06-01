@@ -616,12 +616,12 @@ hr {
 
   .seeMoreBtn {
     display: block;
-    background: #FFFFFF;
+    background: #fff;
     padding-block: 3%;
     font-size: 18px;
     width: 90%;
     cursor: pointer;
-    border: 1px solid #000000;
+    border: 1px solid #000;
   }
 
   .seeMoreBtn .down-arrow {
