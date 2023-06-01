@@ -8,6 +8,6 @@ function toggleMenu() {
   body.classList.toggle('active');
 }
 
-// add the eventlistener and action for humbarger menu that which we click it show appear
+// add the eventlistener method and action for humbarger menu that which we click it show appear
 menuBtn.addEventListener('click', toggleMenu);
 menuOpts.forEach((menuOpt) => menuOpt.addEventListener('click', toggleMenu));
