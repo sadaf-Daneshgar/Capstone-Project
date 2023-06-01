@@ -327,7 +327,7 @@ hr {
   box-shadow: 0 4px 4px #d3d3d3;
 }
 
-.Contributor-name h3 {
+.Contri-name h3 {
   float: left;
   padding: 2%;
 }
@@ -579,11 +579,11 @@ hr {
   }
 
   .speaker {
-    padding: 5%;
+    padding: 4%;
   }
 
   .bgFrame {
-    width: 50%;
+    width: 51%;
   }
 
   .Contributor {
@@ -598,33 +598,33 @@ hr {
     padding: 0;
   }
 
-  .speaker3 {
+  .speaker-3 {
     display: none;
   }
 
-  .speaker4 {
+  .speaker-4 {
     display: none;
   }
 
-  .speaker5 {
+  .speaker-5 {
     display: none;
   }
 
-  .speaker6 {
+  .speaker-6 {
     display: none;
   }
 
   .seeMoreBtn {
     display: block;
-    background: #fff;
+    background: #FFFFFF;
     padding-block: 3%;
     font-size: 18px;
     width: 90%;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid #000000;
   }
 
   .seeMoreBtn .down-arrow {
-    color: #ec5242;
+    color: #c64b3e;
   }
 }
