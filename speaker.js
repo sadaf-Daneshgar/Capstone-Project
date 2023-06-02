@@ -102,7 +102,7 @@ function renderFeatureSpeaker() {
   }
 
   // add the eventlistener for add action on seemore or seeless button
-  seeMoreBtn.addEventListener('click', seeMore);
+  seeBtn.addEventListener('click', seeMore);
   seeLessBtn.addEventListener('click', seeLess);
 }
 
