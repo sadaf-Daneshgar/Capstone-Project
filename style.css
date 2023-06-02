@@ -371,7 +371,7 @@ hr {
   align-items: flex-end;
 }
 
-.Contri{
+.Contri {
   width: 92%;
   height: 92%;
 }
@@ -395,7 +395,7 @@ hr {
   padding-block: 3%;
 }
 
-.seeMore{
+.seeMore {
   display: none;
 }
 
@@ -597,6 +597,7 @@ hr {
   .featured-speakers .container {
     padding: 0;
   }
+
 
   .speaker-3 {
     display: none;
