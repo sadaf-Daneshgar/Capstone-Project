@@ -39,7 +39,7 @@ const speakersDataInfo = [
 ];
 
 // create function for speakers part
-function renderFeatureSpeaker() {
+function renderFeatureSp() {
   const featureSection = document.querySelector('.featured-speakers');
   const projectOverlay = document.createElement('div');
   projectOverlay.classList.add('container');
@@ -63,7 +63,7 @@ function renderFeatureSpeaker() {
                           <h4>${featuredSpeakerInf.speakerPosition}</h4>
                       </li>
                       <li class="contri-description">
-                          <p>${featuredSpeakerInf.speakerInfo}
+                          <p>${featuredSpeakerInf.speakerBio}
                           </p>
                       </li>
                   </ul>
@@ -71,39 +71,39 @@ function renderFeatureSpeaker() {
   }
 
   cardContent += `</ul>
-          <button class="seeMoreBtn">More <i class="fa-solid fa-angle-down down-arrow"></i></button>
-          <button class="speaker3 less">Less <i class="fa-solid fa-angle-up down-arrow"></i></button>`;
+          <button class="seeMore">More <i class="fa-solid fa-angle-down down-arrow"></i></button>
+          <button class="speaker-3 less">Less <i class="fa-solid fa-angle-up down-arrow"></i></button>`;
   projectOverlay.innerHTML = cardContent;
   featureSection.appendChild(projectOverlay);
 
-  const seeMoreBtn = document.querySelector('.seeMoreBtn');
-  const seeLessBtn = document.querySelector('.less');
+  const seeMore = document.querySelector('.seeMore');
+  const seeLess = document.querySelector('.less');
   const speakerthree = document.querySelector('.speaker-3');
   const speakerfour = document.querySelector('.speaker-4');
   const speakerfive = document.querySelector('.speaker-5');
   const speakersix = document.querySelector('.speaker-6');
 
-  function seeMore() {
-    seeMoreBtn.setAttribute('class', 'speaker-3');
+  function seeMoreB() {
+    seeMore.setAttrib('class', 'speaker-3');
     speakerthree.classList.remove('speaker-3');
     speakerfour.classList.remove('speaker-4');
     speakerfive.classList.remove('speaker-5');
     speakersix.classList.remove('speaker-6');
-    seeLessBtn.setAttribute('class', 'seeMoreBtn');
+    seeLess.setAttrib('class', 'seeMore');
   }
 
-  function seeLess() {
-    seeLessBtn.setAttribute('class', 'speaker3 less');
+  function seeLessB() {
+    seeLess.setAttrib('class', 'speaker-3 less');
     speakerthree.classList.add('speaker-3');
     speakerfour.classList.add('speaker-4');
     speakerfive.classList.add('speaker-5');
     speakersix.classList.add('speaker-6');
-    seeMoreBtn.setAttribute('class', 'seeMoreBtn');
+    seeMore.setAttrib('class', 'seeMore');
   }
 
   // add the eventlistener for add action on seemore or seeless button
-  seeBtn.addEventListener('click', seeMore);
-  seeLessBtn.addEventListener('click', seeLess);
+  seeMore.addEventListener('click', seeMoreB);
+  seeLess.addEventListener('click', seeLessB);
 }
 
-window.addEventListener('load', renderFeatureSpeaker);
+window.addEventListener('load', renderFeatureSp);

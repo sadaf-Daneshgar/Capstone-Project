@@ -371,12 +371,12 @@ hr {
   align-items: flex-end;
 }
 
-.Contributor {
+.Contri{
   width: 92%;
   height: 92%;
 }
 
-.Contributor-detail {
+.Contri-detail {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -385,17 +385,17 @@ hr {
   gap: 12px;
 }
 
-.Contributor-affiliation h4 {
+.Contri-affiliation h4 {
   float: left;
   font-style: italic;
   color: #ec5242;
 }
 
-.contributor-description p {
+.contri-description p {
   padding-block: 3%;
 }
 
-.seeMoreBtn {
+.seeMore{
   display: none;
 }
 
@@ -573,7 +573,7 @@ hr {
     display: block;
   }
 
-  .Contributor-detail {
+  .Contri-detail {
     width: 229px;
     gap: 6px;
   }
@@ -586,11 +586,11 @@ hr {
     width: 51%;
   }
 
-  .Contributor {
+  .Contri {
     width: 22vh;
   }
 
-  .contributor-description {
+  .contri-description {
     font-size: 12px;
   }
 
@@ -614,7 +614,7 @@ hr {
     display: none;
   }
 
-  .seeMoreBtn {
+  .seeMore {
     display: block;
     background: #fff;
     padding-block: 3%;
@@ -624,7 +624,7 @@ hr {
     border: 1px solid #000;
   }
 
-  .seeMoreBtn .down-arrow {
+  .seeMore .down-arrow {
     color: #c64b3e;
   }
 }
