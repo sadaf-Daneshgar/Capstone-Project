@@ -342,7 +342,7 @@ hr {
 }
 
 /* feature part js  for desktop version */
-.featured-speakers .container {
+.feature-speak .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -594,23 +594,23 @@ hr {
     font-size: 12px;
   }
 
-  .featured-speakers .container {
+  .feature-speak .container {
     padding: 0;
   }
 
-  .speaker-3 {
+  .speaker3 {
     display: none;
   }
 
-  .speaker-4 {
+  .speaker4 {
     display: none;
   }
 
-  .speaker-5 {
+  .speaker5 {
     display: none;
   }
 
-  .speaker-6 {
+  .speaker6 {
     display: none;
   }
 
