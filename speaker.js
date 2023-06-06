@@ -1,4 +1,4 @@
-let arraOfspeakerPart = [
+const arraOfspeakerPart = [
 
   {
     Name: 'Yochai Benkler',
@@ -6,6 +6,7 @@ let arraOfspeakerPart = [
     speakerBio: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
     Image: 'image/speaker2.png',
   },
+
   {
     Name: 'Kilnam Chon',
     speakerPosition: '',
@@ -40,8 +41,8 @@ let arraOfspeakerPart = [
 ];
 
 function speakerHtmlPart() {
-  var featureAspectSection = document.querySelector('.speaker-aspect');
-  var speakerCreateDiv = document.createElement('div');
+  const featureAspectSection = document.querySelector('.speaker-aspect');
+  const speakerCreateDiv = document.createElement('div');
   speakerCreateDiv.classList.add('container');
 
   let aspectOfCard = `<h3>Featured Speakers</h3>
@@ -49,7 +50,7 @@ function speakerHtmlPart() {
           <ul class="speakers">`;
 
   for (let i = 0; i < arraOfspeakerPart.length; i += 1) {
-    let speakerDataSecion = arraOfspeakerPart[i];
+    const speakerDataSecion = arraOfspeakerPart[i];
 
     aspectOfCard += `
                 
