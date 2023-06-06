@@ -1,5 +1,5 @@
-const speakersDataInfo = [
-  // create array for speakers part to add the detials instead of adding in html
+let arraOfspeakerPart = [
+
   {
     Name: 'Yochai Benkler',
     speakerPosition: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
@@ -39,43 +39,42 @@ const speakersDataInfo = [
   },
 ];
 
-// create function for speakers part
-function renderFeatureSp() {
-  const featureSection = document.querySelector('.feature-speak');
-  const projectOverlay = document.createElement('div');
-  projectOverlay.classList.add('container');
+function speakerHtmlPart() {
+  var featureAspectSection = document.querySelector('.speaker-aspect');
+  var speakerCreateDiv = document.createElement('div');
+  speakerCreateDiv.classList.add('container');
 
-  let cardContent = `<h2>Featured Speakers</h2>
-          <hr class="heading-undeline">
+  let aspectOfCard = `<h3>Featured Speakers</h3>
+          <hr>
           <ul class="speakers">`;
 
-  for (let i = 0; i < speakersDataInfo.length; i += 1) {
-    const featuredSpeakerData = speakersDataInfo[i];
+  for (let i = 0; i < arraOfspeakerPart.length; i += 1) {
+    let speakerDataSecion = arraOfspeakerPart[i];
 
-    cardContent += `
+    aspectOfCard += `
                 
               <li class="speaker speaker${i + 1}">
-                  <div class="bgFrame"><img class="Contri" src="${featuredSpeakerData.Image}" alt="Speaker Picture"></div>
+                  <div class="bgFrame"><img class="Contri" src="${speakerDataSecion.Image}" alt="Speaker Picture"></div>
                   <ul class="Contri-detail">
                       <li class="Contri-name">
-                          <h3>${featuredSpeakerData.Name}</h3>
+                          <h3>${speakerDataSecion.Name}</h3>
                       </li>
                       <li class="Contri-affiliation">
-                          <h4>${featuredSpeakerData.speakerPosition}</h4>
+                          <h4>${speakerDataSecion.speakerPosition}</h4>
                       </li>
                       <li class="contri-description">
-                          <p>${featuredSpeakerData.speakerBio}
+                          <p>${speakerDataSecion.speakerBio}
                           </p>
                       </li>
                   </ul>
               </li>`;
   }
 
-  cardContent += `</ul>
+  aspectOfCard += `</ul>
           <button class="seeMore">More <i class="fa-solid fa-angle-down down-arrow"></i></button>
           <button class="speaker3 less">Less <i class="fa-solid fa-angle-up down-arrow"></i></button>`;
-  projectOverlay.innerHTML = cardContent;
-  featureSection.appendChild(projectOverlay);
+  speakerCreateDiv.innerHTML = aspectOfCard;
+  featureAspectSection.appendChild(speakerCreateDiv);
 
   const seeMore = document.querySelector('.seeMore');
   const seeLess = document.querySelector('.less');
@@ -102,9 +101,8 @@ function renderFeatureSp() {
     seeMore.setAttribute('class', 'seeMore');
   }
 
-  // add the eventlistener for add action on seemore or seeless button
   seeMore.addEventListener('click', seeMoreB);
   seeLess.addEventListener('click', seeLessB);
 }
 
-window.addEventListener('load', renderFeatureSp);
+window.addEventListener('load', speakerHtmlPart);
